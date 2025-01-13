@@ -1,0 +1,86 @@
+/* Global CSS start from here */
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1140px;
+    margin: 0px auto;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* footer css code start */
+
+footer{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    padding: 80px 0px 0px;
+    background: #f5f5f5;
+}
+
+.footer-inner{
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.footer-inner.info{
+    text-align: center;     
+}
+
+.footer-inner.info.social{
+    width: 10%;
+}
+
+.info, .contact{
+    flex-basis: 50%;
+}
+
+.list-1, .list-2{
+    flex-basis: 20%;
+}
+
+.footer-inner.info p{
+    margin: 15px 5;
+    font-size: 10px;
+    width: 90%;     
+}
+
+.list-1 ul li, .list-2 ul li{
+    list-style-type: none;
+    margin: 20px; 
+}
+
+.contact h4{
+    margin-bottom: 10px;
+}
+
+.contact p{
+    margin-bottom: 10px;
+}
+
+.contact p span{
+    font-weight: 700;
+}
+
+.bottom-footer{
+    background: #000;
+    color:#fff;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.bottom-footer p{
+    text-decoration: none;
+}
+
+.bottom-footer p a{
+    color:#ffffffdc;
+}
